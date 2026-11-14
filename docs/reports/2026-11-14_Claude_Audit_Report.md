@@ -52,9 +52,9 @@ The main weaknesses are:
 - **Fix:** Define needs and wants. State that unlimited wants against limited resources is what causes scarcity. Put sustainability in its own sentence.
 
 **5. Line 636 and lines 669–675 (2.3, scope "common"): linear equations "Qd=100−10P and Qs=20+10P"**
-- **Status:** Needs verification against the guide.
-- **Problem:** Solving linear demand/supply functions was HL in the older guide. The current guide may not require it at all. Labelling it "common" may overstate what SL students need.
-- **Fix:** Relabel as HL/enrichment, or note that it is a practice technique, not a syllabus requirement.
+- **Status:** Confirmed by the syllabus pass in §7.1. Linear demand/supply functions appear nowhere in the October 2022 or May 2020 guide.
+- **Problem:** An out-of-syllabus technique is presented as the core common method. This contradicts the authors' rule in `curriculum.md` that enrichment must be labelled optional.
+- **Fix:** Replace it with a schedule or graph-reading example, or tag it "Enrichment — not in current guide".
 
 **6. Lines 73–76 vs `models.js:6` (1.1): PPC model**
 - **Problem:** The lesson teaches a frontier from (0,10) to (5,0), where 1 table costs 2 baskets. The linked model uses x+y=10, a 1:1 cost, with generic axes. The model is also straight-line only, so it cannot show the bowed (increasing-cost) case the text describes.
@@ -196,6 +196,11 @@ All numbers checked:
 **1. Line 1840 (coverage 2.11.perfect_run, "taught"):**
 - **Problem:** Shut-down price (P = min AVC) and break-even price (P = min ATC) are never named. The long-run condition omits P = min ATC.
 - **Fix:** State the shut-down price and the break-even price. State that in the long run P = MC = min ATC.
+- **Revised after the syllabus pass (§7.1):**
+  - The guide (pp. 31–33) does not list a shut-down or break-even rule.
+  - `source-validation.md` already says the guide does not establish one.
+  - So treat the shut-down and break-even terms, and the existing "cover variable cost" sentence at line 1840, as **optional enrichment** and label them that way.
+  - The required wording is "abnormal profit, normal profit, losses" and "allocative efficiency when P = MC". Keep the long-run P = MC = min ATC statement.
 
 **2. Lines 1840, 1850 and 1852:**
 - **Problem:** "Allocative efficiency" (P = MC) and "productive efficiency" (minimum ATC) never appear as terms. Coverage 2.11.monopoly_outcomes (1984) and monopolistic_outcomes (2026) claim inefficiency as taught.
@@ -418,6 +423,365 @@ All numbers checked:
 
 ---
 
-## 7. Additional passes
+## 7. Additional passes from different angles
 
-See the appended sections below. They were added after further review passes from different angles.
+Five further independent passes were run:
+
+1. Syllabus alignment against the guide text itself, in two halves.
+2. Exam readiness, from the view of an IB examiner.
+3. A student's view in a real browser (Playwright).
+4. Internal consistency between the docs and the content.
+
+**Source for the syllabus passes.** Both PDFs linked in `docs/research/source-validation.md` were downloaded and their text extracted:
+
+- The October 2022 update. Its cover says "First assessment 2024", and its imprint reads "Published February 2020, updated … October 2022".
+- The May 2020 copy.
+
+For Units 1–2.6, the only difference between the two copies is that the 2.4 heading gains "(HL only)" in October 2022. HL-only material was identified from the guide's bold formatting.
+
+### 7.1 Syllabus alignment (verified against the guide text)
+
+**What is correct:**
+
+- **SL/HL scope labels are correct everywhere** in Units 1–2. No item is mislabelled. HL-only items, according to the guide's bold text:
+  - 2.1: income and substitution effects, and diminishing marginal utility.
+  - 2.2: marginal returns and marginal cost.
+  - 2.3: calculating consumer and producer surplus.
+  - 2.4: the whole subtopic.
+  - 2.5: PED along a straight line, primary vs manufactured goods, and the importance of YED.
+  - 2.6: primary vs manufactured PES.
+  - 2.7: nudges, and the price control, tax and subsidy calculations.
+  - 2.8: calculating welfare loss.
+  - 2.10–2.12: the whole subtopics.
+- **The response lists match the guide's wording.**
+  - The site correctly leaves out nationalization and trade liberalization for market power. The guide lists only legislation and regulation, government ownership, and fines.
+  - The site correctly leaves out nudges from 2.8.
+  - `curriculum.md` and `coverage-checklist.json` are accurate inventories for 1.1–2.6.
+- **Every coverage status marked omitted for a diagram is honest.**
+
+**High**
+
+1. **2.11 "Diagram: market power where AR > MC" (guide p. 32, HL) is missing from the checklist and from coverage entirely.**
+   - **Fix:** Add the id `2.11.market_power_diagram` (HL, omitted) to `coverage-checklist.json` and to lesson 2.11.
+2. **2.7 HL calculations stop short of what the guide asks for** (p. 30: "effects on markets and stakeholders"). The following are not calculated:
+   - consumer expenditure and producer revenue, before and after;
+   - government spending to buy a floor surplus (5 × 20 = $100);
+   - the total tax burden on each side ($50 / $50);
+   - each side's share of a subsidy;
+   - changes in CS and PS;
+   - welfare loss.
+
+   Keep the status at "summary" until these are added. Example for the tax case: consumer spending 5 × 50 = $250, producer revenue 3 × 50 = $150.
+3. **Linear demand/supply functions are not in the current guide.** See §2, item 5 (now confirmed).
+
+**Medium**
+
+4. **2.4 overclaims "taught" status:**
+   - profit maximization is never explained;
+   - CSR is never named;
+   - imperfect information is only listed;
+   - "perfect information" is softened to "adequate";
+   - "choice architecture" is never defined;
+   - "restricted choice" is illustrated by a ban. A ban overlaps with regulation; the guide means limiting the set of options.
+5. **2.11 overclaims "taught" status:**
+   - oligopoly "allocative inefficiency (market failure)" is not stated;
+   - the payoff matrix is given as prose only, with no 2×2 grid and no dominant strategy;
+   - "Meaning of allocative efficiency, necessary conditions" (p. 32) has no text point;
+   - monopolistic competition "more elastic demand curve compared with monopoly" (p. 33) is not stated;
+   - the guide terms "allocative inefficiency" and "market failure" are not used.
+6. **2.8 overclaims "taught" status:**
+   - the "tragedy of the commons" is not named;
+   - unsustainable production is not linked to negative externalities;
+   - the guide term "common pool / common access resources" is not used;
+   - "collective self-governance" is described but not named;
+   - government provision gets one clause;
+   - "global nature of sustainability issues" is not addressed;
+   - "allocative efficiency" and "community surplus maximized" are not used at MSB = MSC.
+7. **Key concepts are not linked.** Every lesson has `"concepts": ["choice"]`, and app.js never displays the field. The guide expects the nine concepts to be linked throughout. For example:
+   - 2.3 efficiency;
+   - 2.7 intervention;
+   - 2.8 sustainability;
+   - 2.11 interdependence;
+   - 2.12 equity.
+8. **Material beyond the guide is not marked optional:**
+   - the shut-down rule (line 1840);
+   - "Nash equilibrium" as a glossary term (the guide asks only for a simple payoff matrix).
+
+**Low**
+
+9. **Guide terms not used:**
+   - "social/community surplus" (the site says "total surplus");
+   - "command and control regulation";
+   - "services" in income-elastic demand (line 923).
+10. **YED importance is filed under the wrong heading.** It sits under "Elasticity along a line"; give it its own HL sub-heading.
+11. **The primary-commodity PES text is over-hedged.** Lead with the guide's reasons: time lags, limited storage, factor immobility.
+12. **Small "taught" gaps:**
+    - "the use of logic" (1.2);
+    - "economic well-being" is defined too narrowly.
+13. **Coverage under-reports some content that is taught.** The non-diagram halves of these points are bundled inside entries marked "omitted diagram". Split each into a content entry and a diagram entry:
+    - 1.1 circular flow;
+    - 2.1 and 2.2 movement vs shift;
+    - 2.3 new equilibrium and CS/PS concepts;
+    - 2.5 PED along a straight line.
+14. **2.4 title:** use the guide's title, "Critique of the maximizing behaviour of consumers and producers". The current title covers only the consumer half.
+
+**Required diagrams not supplied.** All of these are recorded as omitted, except AR > MC, which is missing from the inventory. Priority 1 is the common SL/HL diagrams, which can appear in every paper, including the shared Paper 2.
+
+**Priority 1: common SL/HL**
+
+- **1.1** — 4 PPC diagrams: choice/efficiency, growth, increasing vs constant cost.
+- **2.1** — 2 diagrams. **2.2** — 2 diagrams.
+- **2.3** — 3 diagrams.
+- **2.5** — 4 common diagrams, plus 1 HL (PED along a line).
+- **2.6** — 1 diagram.
+- **2.7** — 4 diagrams: price ceiling, price floor, indirect tax, subsidy.
+- **2.8** — allocative efficiency.
+- **2.8** — 4 externality diagrams: negative production, negative consumption, positive production, positive consumption.
+- **2.8** — 5 response diagrams: Pigouvian tax, carbon tax, subsidy, legislation/regulation, education.
+
+**Priority 2: HL**
+
+**2.11:**
+
+- PC firm with P = D = AR = MR;
+- PC abnormal profit / normal profit / losses;
+- PC equilibrium with allocative efficiency;
+- **market power AR > MC (not inventoried)**;
+- monopoly abnormal profit / normal profit / losses;
+- monopoly vs PC with welfare loss;
+- natural monopoly;
+- collusive oligopoly as a monopoly;
+- monopolistic competition abnormal profit / normal profit / losses;
+- monopolistic competition demand more elastic than monopoly.
+
+**2.12:** circular flow showing why free markets produce inequality.
+
+### 7.2 Exam readiness (examiner's view)
+
+**High**
+
+1. **Every challenge is "Explain · 4".**
+   - **Location:** lines 113, 281, 422, 563, 704, 835, 983, 1152, 1304, 1488, 1666, 1774, 1912 and 2130.
+   - **Missing:**
+     - Define (2);
+     - Calculate;
+     - Draw;
+     - "Using an appropriate diagram, explain" (4);
+     - Paper 1 (a) 10-mark;
+     - Paper 1 (b) and Paper 2 final 15-mark evaluate/discuss;
+     - Paper 3 (b) 10-mark recommendation;
+     - any data-response stimulus.
+   - **Fix:** Add at least one Paper 2-style chain per lesson. Add Paper 3-style sets for HL lessons. Tag each item with paper, part and marks.
+2. **Rubrics never reward a diagram or a real-world example.** They are 4-point checklists, not level-based markbands. Several prompts are natural "using a diagram" questions:
+   - 2.1 (line 412);
+   - 2.2 (line 553);
+   - 2.3 (line 694);
+   - 2.7 (line 1294);
+   - 2.8 (line 1478).
+
+   Without a diagram, these model answers would cap at about 2/4.
+3. **There are no real-world examples anywhere.** Every context is hypothetical; no country, year or named policy appears. Paper 1 (b) markbands require real-world examples.
+   - **Fix:** Add 1–2 sourced, dated cases per lesson, each with a "last verified" date. Suggestions:
+     - rent control (2.7);
+     - a sugar levy (2.7/2.8);
+     - an emissions trading scheme or carbon tax (2.8);
+     - fisheries quotas (2.8);
+     - pension auto-enrolment and organ-donation defaults (2.4);
+     - a cartel fine or a blocked merger (2.11);
+     - minimum wage and agricultural price support (price floor).
+4. **Evaluation is described but never shown in an answer.** The evaluation criteria at lines 1243–1245, 1427–1433, 1662 and 1858 are good, but every model answer is 3–4 sentences long.
+   - **Fix:** Add one annotated 15-mark exemplar per Unit 2 policy lesson. Structure: theory and diagram → example → counter-argument → short vs long run and stakeholders → assumptions → justified conclusion. Add one 10-mark Paper 3 recommendation.
+5. **Diagrams are the largest mark gap.** See §7.1 for the full list. The firm model draws linear TR/TC lines, which is not an IB firm diagram; replace it with MC/AC/AR/MR.
+
+**Medium**
+
+6. **Definitions may not earn full definition marks:**
+   - PED, YED and PES are given as formulas only. Lead with "a measure of the responsiveness of…".
+   - Subsidy: use "a payment by government to producers that lowers costs and increases supply".
+   - Adverse selection is too abstract.
+   - Moral hazard: add "does not bear the full cost".
+   - PPC: say "maximum combinations when all resources are fully and efficiently employed".
+   - Indirect tax: add specific / ad valorem.
+   - Scarcity: add "unlimited wants".
+   - Demand and supply: add the time period and ceteris paribus.
+7. **Missing glossary terms:**
+   - normal and inferior good, complement;
+   - merit and demerit good;
+   - producer surplus and social surplus;
+   - welfare loss, price mechanism;
+   - productive efficiency;
+   - normal and abnormal profit;
+   - barriers to entry, economies of scale, natural monopoly;
+   - monopoly, oligopoly, concentration ratio;
+   - tradable permit, carbon tax;
+   - choice architecture, primary commodity;
+   - free good, factors of production, sustainability.
+8. **Paper 3 HL quantitative work is incomplete.**
+   - **Within Units 1–2,** these are missing:
+     - spending and revenue changes;
+     - the cost of buying a floor surplus;
+     - CS, PS and welfare changes from an intervention;
+     - how changing a or b in Qd = a − bP moves the curve;
+     - plotting curves from functions.
+   - **Beyond Units 1–2,** the quantitative work for Units 3–4 does not exist yet: multiplier, GDP and deflator, CPI, exchange rates, tariff/quota welfare, Gini/Lorenz. Paper 3 covers the whole syllabus.
+9. **The research notes link to third-party copies of IB documents.**
+   - **Location:** `docs/research/curriculum.md:9` and `source-validation.md` (an ibdocs.re copy of the guide, a github.io copy of specimen papers).
+   - **Problem:** This is an IP and reputational risk in a public repo.
+   - **Fix:** Cite titles and page numbers, and the official route (Programme Resource Centre or IB store).
+
+**Low**
+
+10. The disclaimer is adequate. No challenge prompt resembles specimen wording. Keep any new data extracts original.
+11. Checklist rubrics teach point-counting. Add a note that markbands reward integrated, applied explanation.
+
+**Verdict:** The site is a strong conceptual first course. As exam preparation alone, it would likely cap a student at the middle markbands on Papers 1–2, and it does not yet prepare for most of Paper 3.
+
+**Fix order:**
+1. Diagrams.
+2. Extended question types and markbands.
+3. Real-world examples.
+4. Evaluation exemplars.
+5. Paper 3 calculation sets.
+
+### 7.3 Student view in a browser (Playwright, about 70 screenshots)
+
+No JS errors or NaN values were found. Numeric readouts match the plotted coordinates in every state that was swept. Mobile home and lesson layouts work.
+
+**High**
+
+1. **The ceiling and floor models show no shortage or surplus**, even though the prompt asks students to "identify… any shortage".
+   - The buyer-price and seller-price points sit on top of each other.
+   - The readout shows a lone "Binding" line.
+   - Qd and Qs are never shown.
+   - **Location:** `models.js:12`, `models.js:27–33`, `app.js:37`.
+   - **Fix:** Return qd, qs and the shortage/surplus. Mark both quantities on the graph with a bracket.
+2. **2.2 Supply and 2.6 PES use a model where only demand can shift.**
+   - Supply is always Q = P, so PES = 1 at every point.
+   - The 2.2 prompt "identify which curve shifts" can never be answered with supply.
+   - **Location:** `content-en.js:523–525` and `1112–1114`, `models.js:8`, `models.js:26`.
+   - **Fix:** Add supply-shift and slope controls, or set `model: "none"` and state the limitation.
+3. **The 2.11 model contradicts its prompt.**
+   - The prompt says "compare MR with MC… price from demand". The model is a price-taker TR/TC chart with no MR, MC or demand curve.
+   - The y-axis rescales on every change (ticks such as 105, 210, 315).
+   - **Location:** `models.js:16`, `models.js:36`.
+4. **The skip link sends keyboard users to the Home page.**
+   - `href="#main"` triggers a hashchange, and `render()` falls back to home.
+   - **Location:** `index.html:3`, `app.js:41`.
+
+**Medium**
+
+5. **Next, Previous and course-map links keep the old scroll position.** Students land mid-page; one test landed at scrollY 3361 of 4261. "Mark complete" re-renders the page, which drops focus and clears quiz feedback.
+   - **Location:** `app.js:41`.
+6. **The PED model shows positive values with no warning.** Example: "PED: 5.00".
+   - There is no |PED| classification and no total-revenue readout, though the prompt asks about revenue.
+   - The two points are not joined.
+7. **The externality model uses non-IB labels.**
+   - The legend says "Demand/Supply" instead of MPB = MSB and MPC.
+   - The welfare-loss triangle is not shaded.
+   - At cost = 10, the MSC line collapses to a single point.
+8. **Labels collide with points.**
+   - Curve-number labels sit on points: tax "3" on A, externality "3" on B, firm "1" on A (`app.js:34`).
+   - A tax or subsidy of 10 draws a zero-length line.
+9. **The legend and readouts are hard to decode.**
+   - Curves differ only by dash pattern, and the legend shows no line swatches.
+   - Coordinates appear as (Q, P), but the market readout says "price / quantity".
+   - "Shifted demand" is listed even when shift = 0.
+   - "Frontier Y" is used for both the curve and the readout.
+   - Axes say "Price (units)" and "Money (units)".
+10. **In the market model, "point at chosen price" leaves the curve** above the choke price. The surplus (Qs) is not shown.
+11. **Localisation:**
+    - The challenge prompt, command, model answer and rubric are fully English in all locales, and not labelled "(English exam wording)".
+    - Glossary headwords stay English, in lower case.
+    - Roughly 80 strings per locale embed English mid-sentence (for example "ceiling" and "floor").
+    - The chosen language is not saved across reloads.
+12. **Search misses obvious queries.** "PED", "monopoly" and ja "価格上限" return 0 results; only title, summary and terms are searched (`app.js:23`).
+13. **The coverage page confuses students.**
+    - It shows raw ids and "section:x" tokens.
+    - A diagram the student just used is marked "Omitted"; word these as "Partial – interactive sketch only".
+    - On an iPhone 13 the table overflows (420 px in a 390 px viewport).
+    - The page is 18,700 px long with no collapsing.
+    - There is no scope column.
+14. **Accessibility gaps:**
+    - Slider names read "Quantity (units)4".
+    - There is no `aria-valuetext`.
+    - Readouts have no `aria-live`.
+    - The SVG `aria-label` is generic.
+    - The page `<title>` never changes.
+
+**Low**
+
+- The glossary is in lesson order, not alphabetical, with no filter; links are bare "2.1".
+- Correct quiz feedback reads "Correct · Correct: …".
+- The PED lesson's quiz is about YED.
+- Lessons without a model still say "Predict … before moving a control".
+- The PPC model gives no hint for points beyond the frontier.
+- The focus ring is about 3:1 contrast.
+- SVG text renders at about 10.5 px on mobile.
+
+### 7.4 Internal consistency and claims (docs vs content)
+
+**Verified correct:**
+- 14 lessons and 113 coverage entries (61 taught, 12 summary, 40 omitted).
+- Ids and labels match `coverage-checklist.json` exactly.
+- All `section:` evidence references exist.
+- 43 glossary terms, all unique.
+- Tests pass 19/19.
+
+**Medium**
+
+1. **The guide-version wording could mislead a May 2028 candidate.** The README and the UI `notice` say "October 2022 guide, first assessment 2024", but the linked brief says "first assessment 2022, last 2029". "First assessment 2024" reads like a different syllabus.
+   - **Fix:** Use wording like: "Economics guide (first assessment 2022, last assessment 2029), October 2022 update applying from 2024 exams; Paper 2 is identical at SL/HL and excludes HL extension material." Apply it to the README and all four UI notices.
+2. **README.md:7 is ambiguous.** "Paper 2 covers common material, with HL extensions marked separately" can be read as Paper 2 containing HL extensions. Split it into two sentences.
+3. **`docs/progress.md` contradicts itself and is out of date.**
+   - Lines 3 and 5 say Task 1 is in progress, but line 11 says it is complete.
+   - It says "no initial commit" or "no HEAD", but git has commits.
+   - It says "Sol fix cycle 1 is running", but `site-fix1.md` and `verification-recheck.md` (overall FAIL) exist and are not referenced.
+   - The README does not say that integrated and browser verification are still open.
+4. **The glossary and coverage pages show no HL scope.**
+   - HL-only terms (bounded rationality, nudge, satisficing, adverse selection, moral hazard, Nash equilibrium, economic profit and others) are untagged.
+   - HL coverage points inside common lessons are recognisable only by an id suffix.
+
+**Low**
+
+5. **Spelling mix:**
+   - US spellings: "behavior" (lines 806, 1232, 1716, and the id `2.11.oligopoly_behavior`), "neighbors" (1405), "favors" (233), "honor" (1727, 1767).
+   - British spellings nearby: "honour" (1730), "criticised" (232).
+   - Standardise to IB/Oxford style: behaviour and -ize. Changing the id needs a checklist and test update.
+6. **Surplus is named three ways:** total, social and community. Use "total (community/social) surplus" once.
+7. **Profit term mismatch:** the glossary has "economic profit", but the lessons say "abnormal profit" 13 times. Add normal and abnormal profit to the glossary.
+8. **Line 957** (2.5 quiz): "demand for a good falls 5%" should be "quantity demanded falls 5%".
+9. **Line 1415:** "social marginal benefit" is used, while the rest of the site uses MSB. The externality model labels do not match the lesson text either.
+10. **Duplicate paragraph:** the merit/demerit explanation appears twice in 2.8 (lines 1426 and 1431).
+11. **Summary equals question:** in all 14 lessons, `summary` is identical to `question`, so the card and the lesson page repeat the same sentence.
+12. **2.7's only concept check is HL** although the lesson is common. The common tax section contains HL arithmetic.
+13. **Evidence format is inconsistent:** a few entries use the raw value "worked" instead of the `section:` format.
+14. **The PPC model assumption** (line 75) does not state that opportunity cost is constant.
+15. **Research-doc citation drift:**
+    - Paper 2 page ranges: "pp. 58, 61–62" vs "pp. 58, 60–62".
+    - Examiner-instruction edition: 2025 vs 2022.
+    - "May 2020 copy" vs "published February 2020".
+
+---
+
+## 8. Priority list for the writing agent
+
+1. **Diagrams.** Start with the 14 common SL/HL diagrams for 2.7–2.8, then the rest of §7.1. Add the missing AR > MC inventory item.
+2. **Fix the coverage over-claims.** Either teach the missing points or downgrade them to "summary". This covers §2.3–2.4, §3, §4, §7.1 items 4–6, and the 2.5 and 2.6 reverse calculations.
+3. **Remove or label out-of-guide content.** This covers linear demand/supply functions, the shut-down rule and Nash equilibrium.
+4. **Complete the 2.7 HL stakeholder and welfare calculations.**
+5. **Fix the models.**
+   - ceiling and floor: show the shortage or surplus;
+   - supply shift and PES controls for 2.2 and 2.6;
+   - 2.11 MR/MC firm model;
+   - IB curve labels on the externality model;
+   - fix the skip link.
+6. **Assessment variety.** Add a range of command terms and mark values, markband-style rubrics, real-world examples, and 15-mark evaluation exemplars.
+7. **Translations.**
+   - Fix the zh-Hant-HK meaning reversal at line 173.
+   - Make terms consistent across locales and the UI, and use Hong Kong terms (供應, 物品).
+   - Separate words that are used for two concepts: ja 余剰, ko 수입 and 잉여.
+8. **Docs and claims.**
+   - Update the guide-version wording.
+   - Update `progress.md`.
+   - Remove links to third-party IB copies.
+   - Standardise spelling.
