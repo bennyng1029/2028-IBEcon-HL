@@ -1,0 +1,3 @@
+const test=require('node:test');const assert=require('node:assert/strict');const fs=require('node:fs');const ui=require('../assets/js/ui.js');
+test('all locales have identical nonempty interface keys',()=>{const keys=Object.keys(ui.en).sort();for(const [name,dict] of Object.entries(ui)){assert.deepEqual(Object.keys(dict).sort(),keys,name);for(const [key,value] of Object.entries(dict))assert.ok(typeof value==='string'&&value.trim(),name+' '+key);}});
+test('literal renderer keys exist in every locale',()=>{const source=fs.readFileSync(require.resolve('../assets/js/app.js'),'utf8');for(const match of source.matchAll(/\b(?:t|label)\('([^']+)'/g))for(const dict of Object.values(ui))assert.ok(dict[match[1]],match[1]);});

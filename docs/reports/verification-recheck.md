@@ -1,0 +1,21 @@
+# Independent integrated verification after fix 1 — FAIL
+
+Fresh verification used the assigned brief, prior verification and fix report; graphify had no graph, so exact assigned-file reads and targeted source inspection were the justified fallback. No production changes. A passing check means the specific actions and assertions below succeeded, not an exhaustive human review.
+
+## Commands and browser evidence
+
+- PASS: `for f in assets/js/*.js tests/*.js; do node --check "$f" || exit; done` exited 0. Then `node --test tests/*.test.js` passed 3 file suites, 0 failures.
+- PASS within the harness assertions: Chrome/155.0.8059.79, CDP 1.3, `node tests/browser-check.js` reported 48 file/HTTP locale-model cases, 112 lesson-locale quiz cases, zero runtime exceptions, local-only requests, no overflow in checked mobile routes, and storage failure passed. Browser and server were launched separately: Chrome headless with CDP port 9222 and temporary profile; `python3 -m http.server 8765 --bind 127.0.0.1 --directory /tmp/econ-qa-root`, where `/tmp/econ-qa-root/course` links only to this workspace. Both owned processes stopped. Initial invocation without prerequisites failed with ECONNREFUSED; the properly provisioned rerun passed.
+- PASS: each locale and model reached its quiz/completion controls, ranges changed without non-finite display, reset restored input values, prediction prompt and nonempty axes/legend existed; every quiz option returned nonempty feedback. All lessons were exercised in each locale on both file and HTTP subpath. Malformed and unknown hashes rendered safely, completion and progress reset worked, thrown localStorage still allowed session completion, missing overlay exposed fallback, keyboard focus and an ArrowDown event on the locale select were exercised. The harness does not assert the resulting selected locale for that keyboard event, or a full keyboard-only journey.
+- PASS limited mobile: at 375×812 home, coverage, and lesson 2.7 had no horizontal document overflow; course map was initially closed on lesson 1.1. This is not exhaustive mobile-route or device testing.
+- Screenshots: `/tmp/econ-final-home.png`, `/tmp/econ-final-lesson.png`, `/tmp/econ-final-mobile.png`.
+
+## Prior blockers and independent geometry checks
+
+1. PASS for observed render crash: every lesson reached quiz and completion in the full browser matrix, with zero recorded runtime exceptions.
+2. FAIL market graph: `models.market(4,0)` correctly returns equilibrium (7,7) and chosen-price demand (14,0), but `models.diagram` returns shifted demand from (4,10) to (10,4) with xMax 14. The plotted line stops four units short of the demand intercept and the movement marker (14,0) is visibly off that line. Smallest fix: clip the positive-shift endpoint against the actual xMax 14 and retain negative-shift clipping; add an endpoint and marker-on-curve regression at shift +4, price 0. Floor of demand at zero and separate marker behavior pass their observed cases. Source: assets/js/models.js, market diagram branch.
+3. PASS for the specific missing graph elements and scaling: renderer uses X=48+x/xMax×280 and Y=208−y/yMax×170 with five numeric axis labels and translated legend entries; policy tax 2 yields Q4, buyer 6, seller 4, shifted supply (0,2)–(8,10) and wedge (4,4)–(4,6). Firm maximum example gives Q20, TR400, TC420 and corresponding axes/points, while PED example (10,10) to (15,5) returns −1 and plots on 0–20 axes. These checks do not establish correctness of all possible diagrams; the market defect above remains blocking. The site explicitly treats these as illustrative, not complete assessed diagrams.
+
+## Limits
+
+Automated locale tests establish mechanics and shape, not accurate or natural Japanese, Korean, or Traditional Chinese; native-language review remains needed. Prior verification inspected lesson 2.7 arithmetic and selected model equations, not every content line or authoritative syllabus mapping. Network evidence covers observed harness navigation and requests, not all possible runtime scenarios. Screenshots are captures, not independent proof of accessibility or usability. Overall FAIL until the market line defect is fixed and freshly verified.

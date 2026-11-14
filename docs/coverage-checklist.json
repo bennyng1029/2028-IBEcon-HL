@@ -1,0 +1,595 @@
+{
+  "1.1": [
+    {
+      "id": "1.1.social_science",
+      "point": "Economics as social science and microeconomics versus macroeconomics",
+      "scope": "common"
+    },
+    {
+      "id": "1.1.central_concepts",
+      "point": "Nine central concepts",
+      "scope": "common"
+    },
+    {
+      "id": "1.1.factors",
+      "point": "Factors of production",
+      "scope": "common"
+    },
+    {
+      "id": "1.1.scarcity",
+      "point": "Scarcity, needs, wants and sustainability",
+      "scope": "common"
+    },
+    {
+      "id": "1.1.opportunity_cost",
+      "point": "Opportunity cost and free goods",
+      "scope": "common"
+    },
+    {
+      "id": "1.1.economic_questions",
+      "point": "Basic economic questions",
+      "scope": "common"
+    },
+    {
+      "id": "1.1.systems",
+      "point": "Market, planned and mixed systems and intervention",
+      "scope": "common"
+    },
+    {
+      "id": "1.1.ppc_assumptions",
+      "point": "PPC assumptions and features",
+      "scope": "common"
+    },
+    {
+      "id": "1.1.ppc_choice_diagram",
+      "point": "PPC diagram: scarcity, choice, opportunity cost, unemployment and efficiency",
+      "scope": "common"
+    },
+    {
+      "id": "1.1.ppc_growth_diagram",
+      "point": "PPC diagram: actual growth and growth in productive possibilities",
+      "scope": "common"
+    },
+    {
+      "id": "1.1.ppc_cost_diagram",
+      "point": "PPC diagram: increasing versus constant opportunity cost",
+      "scope": "common"
+    },
+    {
+      "id": "1.1.circular_flow_diagram",
+      "point": "Circular flow diagram: sectors, interdependence, leakages and injections",
+      "scope": "common"
+    }
+  ],
+  "1.2": [
+    {
+      "id": "1.2.positive",
+      "point": "Positive economics: logic, hypotheses, models, theories, ceteris paribus, evidence and refutation",
+      "scope": "common"
+    },
+    {
+      "id": "1.2.normative",
+      "point": "Normative economics, value judgments, equity and equality",
+      "scope": "common"
+    },
+    {
+      "id": "1.2.smith",
+      "point": "18th-century Smith and laissez-faire",
+      "scope": "common"
+    },
+    {
+      "id": "1.2.nineteenth",
+      "point": "19th-century utility, margin, Say's law and Marxist critique",
+      "scope": "common"
+    },
+    {
+      "id": "1.2.twentieth",
+      "point": "Keynesian policy and monetarist/new classical counter-revolution",
+      "scope": "common"
+    },
+    {
+      "id": "1.2.twentyfirst",
+      "point": "Behavioural economics, interdisciplinary links and circular economy",
+      "scope": "common"
+    }
+  ],
+  "2.1": [
+    {
+      "id": "2.1.law",
+      "point": "Law of demand",
+      "scope": "common"
+    },
+    {
+      "id": "2.1.assumptions_hl",
+      "point": "Income and substitution effects and diminishing marginal utility",
+      "scope": "hl"
+    },
+    {
+      "id": "2.1.curve_diagram",
+      "point": "Downward-sloping demand diagram",
+      "scope": "common"
+    },
+    {
+      "id": "2.1.individual_market",
+      "point": "Individual and market demand",
+      "scope": "common"
+    },
+    {
+      "id": "2.1.determinants",
+      "point": "Income, tastes, expectations, related goods and number of consumers",
+      "scope": "common"
+    },
+    {
+      "id": "2.1.shifts_diagram",
+      "point": "Movement along versus shift of demand diagram",
+      "scope": "common"
+    }
+  ],
+  "2.2": [
+    {
+      "id": "2.2.law",
+      "point": "Law of supply",
+      "scope": "common"
+    },
+    {
+      "id": "2.2.assumptions_hl",
+      "point": "Diminishing marginal returns and increasing marginal costs",
+      "scope": "hl"
+    },
+    {
+      "id": "2.2.curve_diagram",
+      "point": "Upward-sloping supply diagram",
+      "scope": "common"
+    },
+    {
+      "id": "2.2.individual_market",
+      "point": "Individual and market supply",
+      "scope": "common"
+    },
+    {
+      "id": "2.2.determinants",
+      "point": "Input costs, related goods, taxes, subsidies, expectations, technology and firms",
+      "scope": "common"
+    },
+    {
+      "id": "2.2.shifts_diagram",
+      "point": "Movement along versus shift of supply diagram",
+      "scope": "common"
+    }
+  ],
+  "2.3": [
+    {
+      "id": "2.3.equilibrium_diagram",
+      "point": "Demand and supply market equilibrium diagram",
+      "scope": "common"
+    },
+    {
+      "id": "2.3.changes_diagram",
+      "point": "Changes in equilibrium, shortages, surpluses and price mechanism diagram",
+      "scope": "common"
+    },
+    {
+      "id": "2.3.price_mechanism",
+      "point": "Signalling, incentives, resource allocation and rationing",
+      "scope": "common"
+    },
+    {
+      "id": "2.3.surplus_diagram",
+      "point": "Consumer, producer and social surplus diagram",
+      "scope": "common"
+    },
+    {
+      "id": "2.3.efficiency",
+      "point": "Allocative efficiency, maximum social surplus and MB equals MC",
+      "scope": "common"
+    },
+    {
+      "id": "2.3.surplus_calculation_hl",
+      "point": "Calculate consumer and producer surplus from a diagram",
+      "scope": "hl"
+    }
+  ],
+  "2.4": [
+    {
+      "id": "2.4.rational",
+      "point": "Rational choice, utility maximization and perfect information",
+      "scope": "hl"
+    },
+    {
+      "id": "2.4.biases",
+      "point": "Rules of thumb, anchoring, framing and availability biases",
+      "scope": "hl"
+    },
+    {
+      "id": "2.4.bounds",
+      "point": "Bounded rationality, self-control and selfishness; imperfect information",
+      "scope": "hl"
+    },
+    {
+      "id": "2.4.choice_architecture",
+      "point": "Default, restricted and mandated choices; nudges",
+      "scope": "hl"
+    },
+    {
+      "id": "2.4.objectives",
+      "point": "Profit, social responsibility, market share, satisficing and growth objectives",
+      "scope": "hl"
+    }
+  ],
+  "2.5": [
+    {
+      "id": "2.5.elasticity",
+      "point": "Meaning and degrees of elasticity",
+      "scope": "common"
+    },
+    {
+      "id": "2.5.ped_formula",
+      "point": "PED formula and interpretation",
+      "scope": "common"
+    },
+    {
+      "id": "2.5.ped_diagrams",
+      "point": "Relatively elastic and inelastic demand; perfectly elastic, inelastic and unitary PED diagrams",
+      "scope": "common"
+    },
+    {
+      "id": "2.5.ped_line_hl",
+      "point": "Changing PED along a straight-line demand curve diagram",
+      "scope": "hl"
+    },
+    {
+      "id": "2.5.ped_determinants",
+      "point": "PED determinants",
+      "scope": "common"
+    },
+    {
+      "id": "2.5.ped_revenue_diagram",
+      "point": "PED and total revenue with price-change diagrams",
+      "scope": "common"
+    },
+    {
+      "id": "2.5.ped_decisions",
+      "point": "PED in firm and government decisions",
+      "scope": "common"
+    },
+    {
+      "id": "2.5.ped_commodities_hl",
+      "point": "Primary versus manufactured goods PED",
+      "scope": "hl"
+    },
+    {
+      "id": "2.5.ped_calculation",
+      "point": "Calculate PED, price, quantity or total revenue from data",
+      "scope": "common"
+    },
+    {
+      "id": "2.5.yed_formula",
+      "point": "YED formula, signs, normal and inferior goods, necessities and luxuries",
+      "scope": "common"
+    },
+    {
+      "id": "2.5.yed_engel_diagram",
+      "point": "Engel curves for income elastic, inelastic and inferior goods",
+      "scope": "common"
+    },
+    {
+      "id": "2.5.yed_calculation",
+      "point": "Calculate YED, income or quantity from data",
+      "scope": "common"
+    },
+    {
+      "id": "2.5.yed_importance_hl",
+      "point": "YED for firms and sectoral change",
+      "scope": "hl"
+    }
+  ],
+  "2.6": [
+    {
+      "id": "2.6.pes_formula",
+      "point": "PES formula and degrees",
+      "scope": "common"
+    },
+    {
+      "id": "2.6.pes_diagrams",
+      "point": "Relative and perfect elasticity, inelasticity and unitary PES diagrams",
+      "scope": "common"
+    },
+    {
+      "id": "2.6.pes_determinants",
+      "point": "Time, factor mobility, spare capacity, storage and cost determinants",
+      "scope": "common"
+    },
+    {
+      "id": "2.6.pes_commodities_hl",
+      "point": "Primary versus manufactured goods PES",
+      "scope": "hl"
+    },
+    {
+      "id": "2.6.pes_calculation",
+      "point": "Calculate PES, price or quantity from data",
+      "scope": "common"
+    }
+  ],
+  "2.7": [
+    {
+      "id": "2.7.reasons",
+      "point": "Revenue, firm and household support, production, consumption, market failure and equity motives",
+      "scope": "common"
+    },
+    {
+      "id": "2.7.ceiling_diagram",
+      "point": "Price ceiling diagram and stakeholder effects",
+      "scope": "common"
+    },
+    {
+      "id": "2.7.floor_diagram",
+      "point": "Price floor diagram and stakeholder effects",
+      "scope": "common"
+    },
+    {
+      "id": "2.7.tax_diagram",
+      "point": "Indirect tax diagram and stakeholder effects",
+      "scope": "common"
+    },
+    {
+      "id": "2.7.subsidy_diagram",
+      "point": "Subsidy diagram and stakeholder effects",
+      "scope": "common"
+    },
+    {
+      "id": "2.7.other_interventions",
+      "point": "Direct provision, regulation and legislation",
+      "scope": "common"
+    },
+    {
+      "id": "2.7.nudges_hl",
+      "point": "Consumer nudges",
+      "scope": "hl"
+    },
+    {
+      "id": "2.7.controls_calculation_hl",
+      "point": "Calculate price ceiling and floor market and stakeholder effects",
+      "scope": "hl"
+    },
+    {
+      "id": "2.7.tax_subsidy_calculation_hl",
+      "point": "Calculate tax and subsidy market and stakeholder effects",
+      "scope": "hl"
+    },
+    {
+      "id": "2.7.evaluation",
+      "point": "Evaluate intervention consequences for markets and stakeholders",
+      "scope": "common"
+    }
+  ],
+  "2.8": [
+    {
+      "id": "2.8.social_optimum_diagram",
+      "point": "MSB equals MSC, allocative efficiency and maximum social surplus diagram",
+      "scope": "common"
+    },
+    {
+      "id": "2.8.negative_production_diagram",
+      "point": "Negative production externality and welfare loss diagram",
+      "scope": "common"
+    },
+    {
+      "id": "2.8.negative_consumption_diagram",
+      "point": "Negative consumption externality and welfare loss diagram",
+      "scope": "common"
+    },
+    {
+      "id": "2.8.positive_production_diagram",
+      "point": "Positive production externality and welfare loss diagram",
+      "scope": "common"
+    },
+    {
+      "id": "2.8.positive_consumption_diagram",
+      "point": "Positive consumption externality and welfare loss diagram",
+      "scope": "common"
+    },
+    {
+      "id": "2.8.merit_demerit",
+      "point": "Merit and demerit goods",
+      "scope": "common"
+    },
+    {
+      "id": "2.8.common_resources",
+      "point": "Rivalry, non-excludability, commons tragedy and unsustainable production",
+      "scope": "common"
+    },
+    {
+      "id": "2.8.welfare_calculation_hl",
+      "point": "Calculate welfare loss from a diagram",
+      "scope": "hl"
+    },
+    {
+      "id": "2.8.pigouvian_diagram",
+      "point": "Pigouvian tax response diagram",
+      "scope": "common"
+    },
+    {
+      "id": "2.8.carbon_diagram",
+      "point": "Carbon tax effects on a polluting industry diagram",
+      "scope": "common"
+    },
+    {
+      "id": "2.8.subsidy_diagram",
+      "point": "Subsidy response diagram",
+      "scope": "common"
+    },
+    {
+      "id": "2.8.regulation_diagram",
+      "point": "Legislation and regulation response diagram",
+      "scope": "common"
+    },
+    {
+      "id": "2.8.education_diagram",
+      "point": "Education response diagram",
+      "scope": "common"
+    },
+    {
+      "id": "2.8.other_responses",
+      "point": "Tradable permits, international agreements, collective self-governance and government provision",
+      "scope": "common"
+    },
+    {
+      "id": "2.8.policy_evaluation",
+      "point": "Measurement, effectiveness and stakeholder consequences of interventions and resource management",
+      "scope": "common"
+    },
+    {
+      "id": "2.8.cooperation",
+      "point": "International cooperation, global sustainability, monitoring and enforcement challenges",
+      "scope": "common"
+    }
+  ],
+  "2.9": [
+    {
+      "id": "2.9.characteristics",
+      "point": "Non-rivalry, non-excludability and free riders",
+      "scope": "common"
+    },
+    {
+      "id": "2.9.responses",
+      "point": "Direct provision and private-sector contracting",
+      "scope": "common"
+    }
+  ],
+  "2.10": [
+    {
+      "id": "2.10.asymmetry",
+      "point": "Asymmetric information, adverse selection and moral hazard",
+      "scope": "hl"
+    },
+    {
+      "id": "2.10.responses",
+      "point": "Government legislation, regulation and information; private signalling and screening",
+      "scope": "hl"
+    }
+  ],
+  "2.11": [
+    {
+      "id": "2.11.structures",
+      "point": "Features of perfect competition, monopoly, oligopoly and monopolistic competition",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.profit_rules",
+      "point": "TR minus TC, MC equals MR and abnormal, normal and loss outcomes",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.cost_revenue_calculation",
+      "point": "Calculate profit, MC, MR, AC and AR from data",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.market_power",
+      "point": "Market power, price takers and price makers",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.perfect_competition_diagram",
+      "point": "Perfect competition price-taker diagram P equals D equals AR equals MR",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.perfect_profit_diagram",
+      "point": "Perfect competition diagrams: abnormal profit, normal profit and losses",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.perfect_equilibrium_diagram",
+      "point": "Perfect competition equilibrium and allocative efficiency diagram",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.perfect_run",
+      "point": "Perfect competition short- and long-run profit maximization",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.monopoly_diagram",
+      "point": "Monopoly diagrams: abnormal profit, normal profit and losses",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.monopoly_welfare_diagram",
+      "point": "Monopoly versus perfect competition price, output and welfare loss diagram",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.natural_monopoly_diagram",
+      "point": "Natural monopoly diagram",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.monopoly_outcomes",
+      "point": "Monopoly profit maximization, restricted output and allocative inefficiency",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.oligopoly_diagram",
+      "point": "Collusive oligopoly acting as monopoly diagram",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.oligopoly_behavior",
+      "point": "Collusion, non-collusion, interdependence, price wars, cheating and inefficiency",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.payoff_matrix",
+      "point": "Simple game theory payoff matrix",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.oligopoly_competition",
+      "point": "Price and non-price competition and concentration ratios",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.monopolistic_profit_diagram",
+      "point": "Monopolistic competition diagrams: abnormal profit, normal profit and losses",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.monopolistic_demand_diagram",
+      "point": "Monopolistic competition and monopoly demand elasticity comparison diagram",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.monopolistic_outcomes",
+      "point": "Short- and long-run outcomes, inefficiency and product variety",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.large_firm_benefits",
+      "point": "Economies of scale, natural monopoly and R&D innovation benefits",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.large_firm_risks",
+      "point": "Risks to output, prices and consumer choice",
+      "scope": "hl"
+    },
+    {
+      "id": "2.11.power_responses",
+      "point": "Regulation, legislation, government ownership and fines",
+      "scope": "hl"
+    }
+  ],
+  "2.12": [
+    {
+      "id": "2.12.inequality",
+      "point": "Free markets and unequal income and wealth distribution",
+      "scope": "hl"
+    },
+    {
+      "id": "2.12.circular_flow_diagram",
+      "point": "Circular flow diagram illustrating causes of inequality",
+      "scope": "hl"
+    }
+  ]
+}
