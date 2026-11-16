@@ -1,0 +1,2198 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "content-ja.js",
+      "file_type": "code",
+      "source_file": "assets/js/content-ja.js",
+      "source_location": "L1",
+      "id": "assets_js_content_ja_js",
+      "community": 10,
+      "norm_label": "content-ja.js"
+    },
+    {
+      "label": "content-ko.js",
+      "file_type": "code",
+      "source_file": "assets/js/content-ko.js",
+      "source_location": "L1",
+      "id": "assets_js_content_ko_js",
+      "community": 11,
+      "norm_label": "content-ko.js"
+    },
+    {
+      "label": "models.js",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L1",
+      "id": "assets_js_models_js",
+      "community": 0,
+      "norm_label": "models.js"
+    },
+    {
+      "label": "clamp()",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L3",
+      "id": "js_models_clamp",
+      "community": 0,
+      "norm_label": "clamp()"
+    },
+    {
+      "label": "curve()",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L22",
+      "id": "js_models_curve",
+      "community": 7,
+      "norm_label": "curve()"
+    },
+    {
+      "label": "point()",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L23",
+      "id": "js_models_point",
+      "community": 9,
+      "norm_label": "point()"
+    },
+    {
+      "label": "panel()",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L66",
+      "id": "js_models_panel",
+      "community": 0,
+      "norm_label": "panel()"
+    },
+    {
+      "label": "sample()",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L69",
+      "id": "js_models_sample",
+      "community": 0,
+      "norm_label": "sample()"
+    },
+    {
+      "label": "line()",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L70",
+      "id": "js_models_line",
+      "community": 7,
+      "norm_label": "line()"
+    },
+    {
+      "label": "guide()",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L72",
+      "id": "js_models_guide",
+      "community": 9,
+      "norm_label": "guide()"
+    },
+    {
+      "label": "arrow()",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L73",
+      "id": "js_models_arrow",
+      "community": 0,
+      "norm_label": "arrow()"
+    },
+    {
+      "label": "region()",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L74",
+      "id": "js_models_region",
+      "community": 7,
+      "norm_label": "region()"
+    },
+    {
+      "label": "read()",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L75",
+      "id": "js_models_read",
+      "community": 9,
+      "norm_label": "read()"
+    },
+    {
+      "label": "market()",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L76",
+      "id": "js_models_market",
+      "community": 7,
+      "norm_label": "market()"
+    },
+    {
+      "label": "rect()",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L77",
+      "id": "js_models_rect",
+      "community": 7,
+      "norm_label": "rect()"
+    },
+    {
+      "label": "node()",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L80",
+      "id": "js_models_node",
+      "community": 0,
+      "norm_label": "node()"
+    },
+    {
+      "label": "edge()",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L82",
+      "id": "js_models_edge",
+      "community": 0,
+      "norm_label": "edge()"
+    },
+    {
+      "label": "ac()",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L205",
+      "id": "js_models_ac",
+      "community": 0,
+      "norm_label": "ac()"
+    },
+    {
+      "label": "mc()",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L205",
+      "id": "js_models_mc",
+      "community": 0,
+      "norm_label": "mc()"
+    },
+    {
+      "label": "ar()",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L205",
+      "id": "js_models_ar",
+      "community": 0,
+      "norm_label": "ar()"
+    },
+    {
+      "label": "mr()",
+      "file_type": "code",
+      "source_file": "assets/js/models.js",
+      "source_location": "L205",
+      "id": "js_models_mr",
+      "community": 0,
+      "norm_label": "mr()"
+    },
+    {
+      "label": "ui.js",
+      "file_type": "code",
+      "source_file": "assets/js/ui.js",
+      "source_location": "L1",
+      "id": "assets_js_ui_js",
+      "community": 12,
+      "norm_label": "ui.js"
+    },
+    {
+      "label": "content-zh-hant-hk.js",
+      "file_type": "code",
+      "source_file": "assets/js/content-zh-hant-hk.js",
+      "source_location": "L1",
+      "id": "assets_js_content_zh_hant_hk_js",
+      "community": 13,
+      "norm_label": "content-zh-hant-hk.js"
+    },
+    {
+      "label": "content-en.js",
+      "file_type": "code",
+      "source_file": "assets/js/content-en.js",
+      "source_location": "L1",
+      "id": "assets_js_content_en_js",
+      "community": 14,
+      "norm_label": "content-en.js"
+    },
+    {
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L1",
+      "id": "assets_js_app_js",
+      "community": 2,
+      "norm_label": "app.js"
+    },
+    {
+      "label": "$()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L6",
+      "id": "js_app",
+      "community": 2,
+      "norm_label": "$()"
+    },
+    {
+      "label": "node()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L7",
+      "id": "js_app_node",
+      "community": 2,
+      "norm_label": "node()"
+    },
+    {
+      "label": "t()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L8",
+      "id": "js_app_t",
+      "community": 5,
+      "norm_label": "t()"
+    },
+    {
+      "label": "label()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L9",
+      "id": "js_app_label",
+      "community": 8,
+      "norm_label": "label()"
+    },
+    {
+      "label": "link()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L10",
+      "id": "js_app_link",
+      "community": 2,
+      "norm_label": "link()"
+    },
+    {
+      "label": "add()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L11",
+      "id": "js_app_add",
+      "community": 3,
+      "norm_label": "add()"
+    },
+    {
+      "label": "button()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L12",
+      "id": "js_app_button",
+      "community": 8,
+      "norm_label": "button()"
+    },
+    {
+      "label": "save()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L13",
+      "id": "js_app_save",
+      "community": 2,
+      "norm_label": "save()"
+    },
+    {
+      "label": "overlay()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L14",
+      "id": "js_app_overlay",
+      "community": 5,
+      "norm_label": "overlay()"
+    },
+    {
+      "label": "lesson()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L15",
+      "id": "js_app_lesson",
+      "community": 5,
+      "norm_label": "lesson()"
+    },
+    {
+      "label": "shell()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L17",
+      "id": "js_app_shell",
+      "community": 2,
+      "norm_label": "shell()"
+    },
+    {
+      "label": "unitName()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L18",
+      "id": "js_app_unitname",
+      "community": 5,
+      "norm_label": "unitname()"
+    },
+    {
+      "label": "lessonCard()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L19",
+      "id": "js_app_lessoncard",
+      "community": 2,
+      "norm_label": "lessoncard()"
+    },
+    {
+      "label": "map()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L20",
+      "id": "js_app_map",
+      "community": 5,
+      "norm_label": "map()"
+    },
+    {
+      "label": "progress()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L21",
+      "id": "js_app_progress",
+      "community": 3,
+      "norm_label": "progress()"
+    },
+    {
+      "label": "home()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L22",
+      "id": "js_app_home",
+      "community": 3,
+      "norm_label": "home()"
+    },
+    {
+      "label": "search()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L23",
+      "id": "js_app_search",
+      "community": 3,
+      "norm_label": "search()"
+    },
+    {
+      "label": "glossary()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L24",
+      "id": "js_app_glossary",
+      "community": 3,
+      "norm_label": "glossary()"
+    },
+    {
+      "label": "coverage()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L25",
+      "id": "js_app_coverage",
+      "community": 3,
+      "norm_label": "coverage()"
+    },
+    {
+      "label": "svgGraph()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L26",
+      "id": "js_app_svggraph",
+      "community": 5,
+      "norm_label": "svggraph()"
+    },
+    {
+      "label": "guidedStudio()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L84",
+      "id": "js_app_guidedstudio",
+      "community": 2,
+      "norm_label": "guidedstudio()"
+    },
+    {
+      "label": "model()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L111",
+      "id": "js_app_model",
+      "community": 8,
+      "norm_label": "model()"
+    },
+    {
+      "label": "lessonPage()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L114",
+      "id": "js_app_lessonpage",
+      "community": 8,
+      "norm_label": "lessonpage()"
+    },
+    {
+      "label": "routeFocus()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L115",
+      "id": "js_app_routefocus",
+      "community": 2,
+      "norm_label": "routefocus()"
+    },
+    {
+      "label": "render()",
+      "file_type": "code",
+      "source_file": "assets/js/app.js",
+      "source_location": "L116",
+      "id": "js_app_render",
+      "community": 3,
+      "norm_label": "render()"
+    },
+    {
+      "label": "ui.test.js",
+      "file_type": "code",
+      "source_file": "tests/ui.test.js",
+      "source_location": "L1",
+      "id": "tests_ui_test_js",
+      "community": 15,
+      "norm_label": "ui.test.js"
+    },
+    {
+      "label": "browser-check.js",
+      "file_type": "code",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L1",
+      "id": "tests_browser_check_js",
+      "community": 4,
+      "norm_label": "browser-check.js"
+    },
+    {
+      "label": "send()",
+      "file_type": "code",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L3",
+      "id": "tests_browser_check_send",
+      "community": 4,
+      "norm_label": "send()"
+    },
+    {
+      "label": "ev()",
+      "file_type": "code",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L3",
+      "id": "tests_browser_check_ev",
+      "community": 4,
+      "norm_label": "ev()"
+    },
+    {
+      "label": "wait()",
+      "file_type": "code",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L3",
+      "id": "tests_browser_check_wait",
+      "community": 4,
+      "norm_label": "wait()"
+    },
+    {
+      "label": "nav()",
+      "file_type": "code",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L3",
+      "id": "tests_browser_check_nav",
+      "community": 4,
+      "norm_label": "nav()"
+    },
+    {
+      "label": "key()",
+      "file_type": "code",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L94",
+      "id": "tests_browser_check_key",
+      "community": 4,
+      "norm_label": "key()"
+    },
+    {
+      "label": "tabTo()",
+      "file_type": "code",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L96",
+      "id": "tests_browser_check_tabto",
+      "community": 4,
+      "norm_label": "tabto()"
+    },
+    {
+      "label": "content.test.js",
+      "file_type": "code",
+      "source_file": "tests/content.test.js",
+      "source_location": "L1",
+      "id": "tests_content_test_js",
+      "community": 6,
+      "norm_label": "content.test.js"
+    },
+    {
+      "label": "localized()",
+      "file_type": "code",
+      "source_file": "tests/content.test.js",
+      "source_location": "L83",
+      "id": "tests_content_test_localized",
+      "community": 6,
+      "norm_label": "localized()"
+    },
+    {
+      "label": "studio()",
+      "file_type": "code",
+      "source_file": "tests/content.test.js",
+      "source_location": "L322",
+      "id": "tests_content_test_studio",
+      "community": 6,
+      "norm_label": "studio()"
+    },
+    {
+      "label": "correct()",
+      "file_type": "code",
+      "source_file": "tests/content.test.js",
+      "source_location": "L323",
+      "id": "tests_content_test_correct",
+      "community": 6,
+      "norm_label": "correct()"
+    },
+    {
+      "label": "feedback()",
+      "file_type": "code",
+      "source_file": "tests/content.test.js",
+      "source_location": "L496",
+      "id": "tests_content_test_feedback",
+      "community": 6,
+      "norm_label": "feedback()"
+    },
+    {
+      "label": "matching()",
+      "file_type": "code",
+      "source_file": "tests/content.test.js",
+      "source_location": "L519",
+      "id": "tests_content_test_matching",
+      "community": 6,
+      "norm_label": "matching()"
+    },
+    {
+      "label": "models.test.js",
+      "file_type": "code",
+      "source_file": "tests/models.test.js",
+      "source_location": "L1",
+      "id": "tests_models_test_js",
+      "community": 1,
+      "norm_label": "models.test.js"
+    },
+    {
+      "label": "area()",
+      "file_type": "code",
+      "source_file": "tests/models.test.js",
+      "source_location": "L45",
+      "id": "tests_models_test_area",
+      "community": 1,
+      "norm_label": "area()"
+    },
+    {
+      "label": "close()",
+      "file_type": "code",
+      "source_file": "tests/models.test.js",
+      "source_location": "L46",
+      "id": "tests_models_test_close",
+      "community": 1,
+      "norm_label": "close()"
+    },
+    {
+      "label": "get()",
+      "file_type": "code",
+      "source_file": "tests/models.test.js",
+      "source_location": "L47",
+      "id": "tests_models_test_get",
+      "community": 1,
+      "norm_label": "get()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "tests/models.test.js",
+      "source_location": "L48",
+      "id": "tests_models_test_main",
+      "community": 1,
+      "norm_label": "main()"
+    },
+    {
+      "label": "item()",
+      "file_type": "code",
+      "source_file": "tests/models.test.js",
+      "source_location": "L49",
+      "id": "tests_models_test_item",
+      "community": 1,
+      "norm_label": "item()"
+    },
+    {
+      "label": "regionArea()",
+      "file_type": "code",
+      "source_file": "tests/models.test.js",
+      "source_location": "L50",
+      "id": "tests_models_test_regionarea",
+      "community": 1,
+      "norm_label": "regionarea()"
+    },
+    {
+      "label": "ordinate()",
+      "file_type": "code",
+      "source_file": "tests/models.test.js",
+      "source_location": "L91",
+      "id": "tests_models_test_ordinate",
+      "community": 1,
+      "norm_label": "ordinate()"
+    },
+    {
+      "label": "edge()",
+      "file_type": "code",
+      "source_file": "tests/models.test.js",
+      "source_location": "L114",
+      "id": "tests_models_test_edge",
+      "community": 1,
+      "norm_label": "edge()"
+    },
+    {
+      "label": "on()",
+      "file_type": "code",
+      "source_file": "tests/models.test.js",
+      "source_location": "L115",
+      "id": "tests_models_test_on",
+      "community": 1,
+      "norm_label": "on()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_models_js",
+      "target": "js_models_clamp"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_models_js",
+      "target": "js_models_curve"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_models_js",
+      "target": "js_models_point"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "assets_js_models_js",
+      "target": "js_models_panel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "assets_js_models_js",
+      "target": "js_models_sample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "assets_js_models_js",
+      "target": "js_models_line",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "assets_js_models_js",
+      "target": "js_models_guide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "assets_js_models_js",
+      "target": "js_models_arrow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "assets_js_models_js",
+      "target": "js_models_region",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "assets_js_models_js",
+      "target": "js_models_read",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "assets_js_models_js",
+      "target": "js_models_market",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "assets_js_models_js",
+      "target": "js_models_rect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "assets_js_models_js",
+      "target": "js_models_node",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "assets_js_models_js",
+      "target": "js_models_edge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L205",
+      "weight": 1.0,
+      "source": "assets_js_models_js",
+      "target": "js_models_ac",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L205",
+      "weight": 1.0,
+      "source": "assets_js_models_js",
+      "target": "js_models_mc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L205",
+      "weight": 1.0,
+      "source": "assets_js_models_js",
+      "target": "js_models_ar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L205",
+      "weight": 1.0,
+      "source": "assets_js_models_js",
+      "target": "js_models_mr",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "js_models_line",
+      "target": "js_models_curve",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "js_models_read",
+      "target": "js_models_point",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "js_models_market",
+      "target": "js_models_line",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "js_models_rect",
+      "target": "js_models_line",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "js_models_read",
+      "target": "js_models_guide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/models.js",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "js_models_rect",
+      "target": "js_models_region",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_node"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_t"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_label"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_link"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_add"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_button"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_save"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_overlay"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_lesson"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_shell"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_unitname"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_lessoncard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_map"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_progress"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_home"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_search"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_glossary"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_coverage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_svggraph"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_guidedstudio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_model"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_lessonpage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_routefocus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assets_js_app_js",
+      "target": "js_app_render"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_shell",
+      "target": "js_app"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_link",
+      "target": "js_app_node"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_add",
+      "target": "js_app_node"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_label",
+      "target": "js_app_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_overlay",
+      "target": "js_app_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_shell",
+      "target": "js_app_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_unitname",
+      "target": "js_app_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_lessoncard",
+      "target": "js_app_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_map",
+      "target": "js_app_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_progress",
+      "target": "js_app_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_home",
+      "target": "js_app_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_search",
+      "target": "js_app_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_glossary",
+      "target": "js_app_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_coverage",
+      "target": "js_app_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_svggraph",
+      "target": "js_app_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "js_app_guidedstudio",
+      "target": "js_app_t",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_model",
+      "target": "js_app_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_lessonpage",
+      "target": "js_app_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_render",
+      "target": "js_app_t"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_model",
+      "target": "js_app_label"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_lessonpage",
+      "target": "js_app_label"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_shell",
+      "target": "js_app_link"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_lessoncard",
+      "target": "js_app_link"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_home",
+      "target": "js_app_link"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_glossary",
+      "target": "js_app_link"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_coverage",
+      "target": "js_app_link"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_lessonpage",
+      "target": "js_app_link"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_button",
+      "target": "js_app_add"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_shell",
+      "target": "js_app_add"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_lessoncard",
+      "target": "js_app_add"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_map",
+      "target": "js_app_add"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_progress",
+      "target": "js_app_add"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_home",
+      "target": "js_app_add"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_search",
+      "target": "js_app_add"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_glossary",
+      "target": "js_app_add"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_coverage",
+      "target": "js_app_add"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_svggraph",
+      "target": "js_app_add"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "js_app_guidedstudio",
+      "target": "js_app_add",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_model",
+      "target": "js_app_add"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_lessonpage",
+      "target": "js_app_add"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_render",
+      "target": "js_app_add"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_progress",
+      "target": "js_app_button"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_model",
+      "target": "js_app_button"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_lessonpage",
+      "target": "js_app_button"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_overlay",
+      "target": "js_app_map"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_lesson",
+      "target": "js_app_overlay"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_lesson",
+      "target": "js_app_map"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_glossary",
+      "target": "js_app_lesson"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_coverage",
+      "target": "js_app_lesson"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_lessonpage",
+      "target": "js_app_lesson"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_shell",
+      "target": "js_app_map"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_render",
+      "target": "js_app_shell"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_map",
+      "target": "js_app_unitname"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_home",
+      "target": "js_app_map"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "js_app_svggraph",
+      "target": "js_app_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_model",
+      "target": "js_app_map"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_render",
+      "target": "js_app_map"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_home",
+      "target": "js_app_progress"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_render",
+      "target": "js_app_home"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_render",
+      "target": "js_app_search"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_render",
+      "target": "js_app_glossary"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_render",
+      "target": "js_app_coverage"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_lessonpage",
+      "target": "js_app_model"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/js/app.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_render",
+      "target": "js_app_lessonpage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_browser_check_js",
+      "target": "tests_browser_check_send"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_browser_check_js",
+      "target": "tests_browser_check_ev"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_browser_check_js",
+      "target": "tests_browser_check_wait"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_browser_check_js",
+      "target": "tests_browser_check_nav"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "tests_browser_check_js",
+      "target": "tests_browser_check_key",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "tests_browser_check_js",
+      "target": "tests_browser_check_tabto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_browser_check_ev",
+      "target": "tests_browser_check_send"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_browser_check_nav",
+      "target": "tests_browser_check_send"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "tests_browser_check_key",
+      "target": "tests_browser_check_send",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_browser_check_wait",
+      "target": "tests_browser_check_ev"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "tests_browser_check_tabto",
+      "target": "tests_browser_check_ev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_browser_check_nav",
+      "target": "tests_browser_check_wait"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/browser-check.js",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "tests_browser_check_tabto",
+      "target": "tests_browser_check_key",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/content.test.js",
+      "source_location": "L83",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_content_test_js",
+      "target": "tests_content_test_localized"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/content.test.js",
+      "source_location": "L322",
+      "weight": 1.0,
+      "source": "tests_content_test_js",
+      "target": "tests_content_test_studio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/content.test.js",
+      "source_location": "L323",
+      "weight": 1.0,
+      "source": "tests_content_test_js",
+      "target": "tests_content_test_correct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/content.test.js",
+      "source_location": "L496",
+      "weight": 1.0,
+      "source": "tests_content_test_js",
+      "target": "tests_content_test_feedback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/content.test.js",
+      "source_location": "L519",
+      "weight": 1.0,
+      "source": "tests_content_test_js",
+      "target": "tests_content_test_matching",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/models.test.js",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "tests_models_test_js",
+      "target": "tests_models_test_area",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/models.test.js",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "tests_models_test_js",
+      "target": "tests_models_test_close",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/models.test.js",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "tests_models_test_js",
+      "target": "tests_models_test_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/models.test.js",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "tests_models_test_js",
+      "target": "tests_models_test_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/models.test.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "tests_models_test_js",
+      "target": "tests_models_test_item",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/models.test.js",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "tests_models_test_js",
+      "target": "tests_models_test_regionarea",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/models.test.js",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "tests_models_test_js",
+      "target": "tests_models_test_ordinate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/models.test.js",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "tests_models_test_js",
+      "target": "tests_models_test_edge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/models.test.js",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "tests_models_test_js",
+      "target": "tests_models_test_on",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/models.test.js",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "tests_models_test_regionarea",
+      "target": "tests_models_test_area",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/models.test.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "tests_models_test_item",
+      "target": "tests_models_test_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/models.test.js",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "tests_models_test_regionarea",
+      "target": "tests_models_test_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/models.test.js",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "tests_models_test_ordinate",
+      "target": "tests_models_test_item",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "377f71c12ba0b5549bf2d5c3c05bd46f0764c05f"
+}

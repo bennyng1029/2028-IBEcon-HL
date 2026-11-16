@@ -1,0 +1,24 @@
+# Fresh integrated verification after fix 2 — PASS
+
+Fresh verifier directly read the recheck, fix 2 report, verification brief, session handoff, design, implementation plan, browser harness, canonical models and model regression tests. Graphify has no graph according to the assigned brief; exact targeted reads were the justified fallback. No production files changed. This report supersedes the remaining market-endpoint failure in verification-recheck.md for the checks described below.
+
+## Static checks and browser acceptance
+
+- PASS: `for f in assets/js/*.js tests/*.js; do node --check "$f" || exit; done` exited 0. Then `node --test tests/*.test.js` exited 0: 3 test files passed, 0 failures, 0 skipped.
+- PASS: `node tests/browser-check.js` exited 0 against independent Chrome/155.0.8059.79, CDP 1.3. Actual output: `{"matrixCases":48,"quizCases":112,"errors":0,"networkLocalOnly":true,"mobileOverflow":false,"storageFailurePassed":true}`. The 112 quiz cases are lesson-locale-route combinations, with every option checked within each combination.
+- Browser prerequisites: `mkdir -p /tmp/econ-final-qa-root`; `ln -sfn /home/bennyng/2028-IBEconAA-HL /tmp/econ-final-qa-root/course`; `python3 -m http.server 8765 --bind 127.0.0.1 --directory /tmp/econ-final-qa-root`; `/usr/bin/google-chrome --headless --no-sandbox --disable-gpu --remote-debugging-port=9222 --user-data-dir=/tmp/econ-final-chrome-verify about:blank`. Initial sandbox attempts denied sockets/Chrome; escalated runs succeeded. HTTP exposed only this workspace via `/course/`. Both owned server and Chrome processes were stopped after verification.
+- PASS within harness assertions: both file and HTTP subpath routes; manual four-locale state across navigation; six models per locale with finite display at maximum controls, reset, visible prediction prompt, nonempty SVG text/legend, quiz and completion controls; every lesson and every quiz option returns feedback; coverage row count; malformed and unknown hash safe home; progress and reset; blocked-storage session completion; missing-overlay visible fallback; no recorded runtime exceptions and observed requests local only.
+- PASS keyboard improvement: after focusing the native language selector at English, actual CDP ArrowDown changes selector value to `ja` and document language to `ja`, while preserving focus. This is an actual state assertion, not merely event delivery.
+- PASS limited mobile checks: at 375×812, home, coverage and lesson 2.7 have no horizontal document overflow for both route types; lesson menu begins closed on lesson 1.1. Harness captures `/tmp/econ-mobile.png` and `/tmp/econ-desktop.png`.
+
+## Independent endpoint and prior-blocker checks
+
+- PASS: separate Node assertions swept shifts −4, 0, +4 and chosen prices 0–10 in increments of 0.25. Feasible movement points satisfy Q+P=10+shift; above the choke price demand remains zero. Endpoints are −4: (0,6)–(6,0), 0: (0,10)–(10,0), +4: (4,10)–(14,0). Equilibria are respectively (3,3), (5,5), (7,7). Positive endpoint now reaches the actual xMax 14.
+- PASS: `node /tmp/econ-final-geometry.js` independently used local CDP to set shift −4/+4 and price 0, then assert actual rendered SVG line endpoint equals movement-marker centre. At −4 both are (168,208) pixels; at +4 both are (328,208), with shifted line starts (48,106) and (128,38). This confirms renderer geometry as well as pure model output. Temporary probe is outside production files.
+- PASS original render crash: complete browser matrix reaches quiz/completion for all lessons, with zero recorded exceptions.
+- PASS original movement separation: harness changes selected price and asserts equilibrium remains fixed while movement marker changes; model and actual boundary checks above also pass.
+- PASS previous scaling/policy checks: independent Node assertion confirms tax 2 wedge (4,4)–(4,6), and firm maximum yMax 420. Canonical diagram source retains explicit axes/scales, shifted policy curves and wedge; Node regressions also pass firm and PED coordinates. These are illustrative graphs, not proof of all assessed diagrams.
+
+## Limits
+
+PASS means these automated checks succeeded. Locale checks establish mechanics, populated text and structural parity; this verifier did not conduct native-language review, exhaustive economic/content audit or fresh authoritative syllabus reconciliation. Existing coverage/scope tests passed, but referenced content and earlier lesson 2.7 arithmetic inspection were not independently re-audited line by line in this narrow recheck. Nonempty text does not prove translation quality. Keyboard evidence is one actual locale-selector action, not a complete keyboard-only journey or accessibility audit. Mobile coverage is limited to the named viewport/routes; no full device matrix, screen-reader, contrast or human usability review occurred. Local-only network evidence covers observed test actions. No publication performed.

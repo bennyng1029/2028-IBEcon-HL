@@ -1,0 +1,18 @@
+# Wave-level Cycle B: architecture and assumptions
+
+**Verdict: REVISE.** Independent source review of the entire application architecture and user-reachable modes, with focused examination of the specified plan and fresh verification report. Graphify was unavailable as recorded in the review brief; direct file reads were the fallback. The browser report is evidence for its stated cases, not an exhaustive accessibility or model audit.
+
+## BLOCKING
+
+1. **Skip-to-content destroys the current route.** `index.html:3` points the skip link to `#main`, but `assets/js/app.js:41-42` treats every hash change as an application route and maps unknown hashes to home. Reproduction: open `#lesson/2.1`, focus and activate Skip to content: the hash becomes `#main` and the lesson is replaced by home. This makes the accessibility navigation itself lose the learner's place. Smallest fix: make the skip link focus `main` without modifying the route hash (and retain native keyboard accessibility), then verify from a lesson and another non-home view.
+
+2. **A demanded-quantity marker can be plotted off the demand curve while labelled as movement.** `assets/js/models.js:8` floors demand at zero, while `assets/js/models.js:26` plots that zero quantity at any chosen price, including prices above the shifted curve's choke price. For example, in lesson 2.1 set demand shift to −4 and chosen price to 10: the shifted demand line ends at (0,6), yet the movement point is (0,10). The legend calls it movement along demand (`assets/js/app.js:34-35` and `assets/js/ui.js:8`), undermining the explicit shift-versus-movement teaching objective. The recorded endpoint sweep accepts zero above choke but does not establish that the displayed point lies on the plotted curve. Smallest fix: represent the zero-demand region explicitly and label it accurately, or constrain the chosen price to the shifted choke price; test the actual rendered graph at the above-choke boundary and communicate the chosen assumption.
+
+## NON-BLOCKING
+
+- Route changes replace all main content (`assets/js/app.js:41`) without setting focus on the new page. Following a lesson or next link removes the focused element, so a keyboard or screen-reader learner can lose their navigation position. Move focus to the new main heading or main landmark on route changes, taking care not to disrupt focus during locale changes or model updates.
+- `assets/js/app.js:5,13,21` can read persisted progress successfully while a later write fails; the visible message correctly says current progress is session-only, but a reset can appear successful and previously persisted completions can reappear on reload. Consider explicitly explaining that a failed reset could not clear saved data, and test read-success/write-failure separately from completely blocked storage.
+
+## Architecture and limits
+
+Classic scripts, one canonical model module and localized presentation data fit the offline/file/subpath constraints; a framework or runtime dependency would add complexity without addressing the findings. Translation merges construct new objects rather than mutate canonical data; malformed and unknown hashes safely show home apart from the skip-link collision above. The storage guard preserves learning in the current session. Pure calculations and DOM rendering remain distinct; fixed linear assumptions are declared in the models. Review was source-based and did not independently rerun browser tests, audit all translations for linguistic accuracy, reconcile all syllabus claims against the guide, or conduct screen-reader and comprehensive keyboard testing.

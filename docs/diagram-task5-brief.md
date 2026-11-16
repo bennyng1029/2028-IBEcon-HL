@@ -1,0 +1,21 @@
+# Guided diagram studio: implementation plan
+
+Status: approved for implementation; see docs/reviews/diagram-plan-a-recheck.md and docs/reviews/diagram-plan-b.md. Read `docs/diagram-design.md` and `docs/diagram-coverage-audit.md` first. Original baseline is the working-tree product snapshot `/tmp/econ-diagram-baseline-8o8a0nje`, not merely HEAD. No commits or publishing are authorized by this plan.
+
+## Wave-front package
+
+Objective: substantive, original, four-locale drawing instruction for exactly the frozen40 omitted objectives; all113 objective IDs/order and12 existing summaries survive. Use the scenario inventory, equations, data/geometry contracts and ownership in the design as locked decisions. Finite native-control construction is the selected interaction. No third-party dependency or product scope extension. Existing six calculators, lesson navigation, search, glossary, progress/storage, sources and assessment notices retain behavior.
+
+Assumptions: Node built-in test runner and existing Chrome/CDP harness remain available; original unit and scope research remains applicable. Economic examples teach assumptions, not universal empirical predictions. Source descriptions cannot be copied into practice material. Translation equivalence needs actual reading, not just parity tests.
+
+Main risks: dynamic overlays corrupting metadata; superficial diagram coverage; MC/AC inconsistency; hidden layers not revealing geometry; dense flow labels on mobile; test runtime across every variant; excessive prose or rendering cost. Mitigations: explicit schema; analytic tests; lazy details rendering if necessary within canonical renderer; native controls; complete browser enumeration and sampled visual inspection. Do not create an independent renderer, math engine, translation store or progress system.
+
+Anticipated gates: no outstanding presentation preference. A new dependency, destructive action, missing required source, or scope expansion requires user decision. Routine numeric sampling, label placement, hatch and dash choices within these contracts are implementation decisions. If contract contradiction emerges, stop dependent work and report the smallest proposed correction to coordinator for review; do not silently fork the schema.
+
+Before implementation, coordinator obtains fresh synchronous review A (completeness/feasibility), then fresh synchronous review B (architecture/assumptions, challenge design). Resolve blockers with at most3 fix/review attempts per cycle. Reviewers do the work directly, no delegation/background placeholders. Coordinator writes `docs/diagram-session-handoff.md` with approved references, frozen decisions, task packages, checks, baseline and resume prompt. Each implementer starts fresh and reads handoff first, using subagent-driven-development. This document is the plan; the handoff records final approval/review evidence.
+
+## Task5 — final coverage activation
+
+Own only `assets/js/content-en.js`, the three locale overlays (`assets/js/content-ja.js`, `assets/js/content-ko.js`, `assets/js/content-zh-hant-hk.js`) and `tests/content.test.js`. Start only after a fresh functional verifier has passed Task4 rendered practice for every scenario in all four locales, including file and subpath browser checks. Promote the verified frozen40 entries to `taught`, set each canonical evidence to `diagram:<same-id>`, and synchronously remove obsolete omission fields and contradicted omission statements in English and all overlays. Preserve all113 IDs/order, all12 summary statuses and unrelated content. If verification is partial or fails, do not start activation: leave all 40 omitted with their explanations intact and report the unverified objectives.
+
+Fresh verification: run `node --check` for all four content scripts, then `node --test tests/content.test.js` and `node tests/browser-check.js` with the documented Task4 invocation. Confirm each taught entry has matching substantive rendered four-locale diagram evidence; any remaining omitted entry retains its explanation. Confirm 113 IDs/order and 12 summaries against baseline. Tests validate payloads independently of coverage state and assert activation only when the final evidence gate has been met.

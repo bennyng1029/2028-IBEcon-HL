@@ -1,0 +1,13 @@
+# Guided diagrams — final wave review package
+
+Review the entire product delta from /tmp/econ-diagram-baseline-8o8a0nje, not just HEAD (manual commits and an external audit were merged during execution). Current objective: cover exactly40 previously omitted Unit1–2 diagram points with accurate, clear guided teaching in4locales. Scope and locked contracts: docs/diagram-design.md, diagram-implementation-plan.md and diagram-coverage-audit.md. Read latest progress and reports for completed gates. No reviewer delegates or edits production; each writes its named report and returns substantive verdict.
+
+Task1–3 source/math/semantic checks and Task4 full browser+visual evidence are in docs/reports/diagram-task*-final*.md and diagram-task1-recheck.md. Task4 functional:536 guided cases,320mobile,48oldmodels112quizzes; nativekeyboard36paths; visual manifests288views completed en/ja/ko/zh checks. Static tests alone are not education/translation proof. Review the activated final product, not old failed intermediate snapshots.
+
+Cycle A: correctness and requirement fit, every frozen objective's substantive diagram/explanation/practice, relevant mathematical invariants and layer meaning, common/HL scope, translation changes and honest coverage, regression/test adequacy. Check learner-facing coverage communication after activation as well as guided UI.
+
+Cycle B: independently challenge architecture and original design path; canonical math/renderer/overlay ownership, geometry and reference lifetime, reset/reveal/focus/state, offline/file/subpath behavior, complex mobile flows, hidden-layer descriptions, density/performance and communication. Consider simpler alternatives without unrelated refactoring.
+
+Evidence boundary: guided choices establish recognition/construction, not independent drawing mastery, native-language certification or an exhaustive accessibility audit. Existing12 summaries stay summary. Source data inventory remains113 IDs and the frozen40; an externally merged Claude audit separately identified an unlisted AR>MC inventory point and old Chinese causation wording. Coordinator asked user whether to expand to those two extras, with no explicit response yet; distinguish new-wave findings from broader existing observations.
+
+Return APPROVE or REVISE; label BLOCKING/NON-BLOCKING with concrete file:line, reproduction/evidence and smallest fix. Respect actual independent verification; do not redundantly rerun entire browser suite without a new concern. User authorizes commit/push only after completion. Reports must name remaining risks, not imply professional verification.
